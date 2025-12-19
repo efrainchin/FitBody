@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FitBody</string>
+
+    <string name="act_splash_screen">Splash Screen</string>
 </resources>

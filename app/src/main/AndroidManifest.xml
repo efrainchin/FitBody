@@ -16,11 +16,20 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.FitBody">
+        </activity>
+
+        <activity
+            android:name=".presentation.screens.FitSplashScreen"
+            android:exported="true"
+            android:label="@string/act_splash_screen"
+            android:theme="@style/Theme.SplashScreen.FitBody">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
